@@ -24,6 +24,12 @@ nav
     opacity: 80%;
 }
 
+.navbar-brand
+{
+    color: var(--yellow);
+    font-size: 2.5em;
+}
+
 .nav-link
 {
     display: block;
@@ -31,8 +37,6 @@ nav
     font-size: 2em;
     font-family: 'Ranchers', sans-serif;
     font-weight: bold;
-    text-align: center;
-    padding: 14px 16px;
 }
 
 .nav-link:hover
