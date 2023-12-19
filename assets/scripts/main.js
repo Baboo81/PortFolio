@@ -11,10 +11,10 @@ ball.style.position = "absolute";
 
 function ballAnimate1 () {
 
-    if (leftPos == 1200) {
+    if (leftPos == 1700) {
         dir = 1
     } else if 
-        (leftPos == -100) {
+        (leftPos == 1000) {
         dir = -1
     }
     
