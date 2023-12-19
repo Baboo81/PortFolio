@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Playfair+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Playfair+Display&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Caveat&family=Merriweather:wght@300&family=Playfair+Display&family=Poppins:wght@100;300&family=Ranchers&display=swap');
 
 :root
 {
@@ -17,6 +16,7 @@ body
     overflow-x: hidden;
 }
 
+/*Nav*/
 nav
 {
     height: 7em;
@@ -29,9 +29,29 @@ nav
     display: block;
     color: var(--yellow);
     font-size: 2em;
+    font-family: 'Ranchers', sans-serif;
     font-weight: bold;
     text-align: center;
     padding: 14px 16px;
+}
+
+.nav-link:hover
+{
+    color: var(--blue);
+}
+/*Nav END*/
+
+.fontCaveat
+{
+    font-family: 'Caveat', cursive;
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
+
+.fontRanchers
+{
+    font-family: 'Ranchers', sans-serif;
 }
 
 /*MainTitle + animation*/
@@ -76,6 +96,95 @@ h1:nth-child(4){
 }
 /*END*/
 
+/*Skills animation*/
+#skills
+{
+    height: 80px;
+    width: 80px;
+}
+
+#borderSkills
+{
+    border: solid 2px var(--yellow);
+    height: 150px;
+    width: 4000px;
+    margin-top: 30%;
+    
+}
+
+#container
+{
+    height: 100px;
+    width: 3000px;
+    margin-top: .5%; 
+    margin-left: 0%;  
+    animation: skills 8.5s linear infinite;
+}
+
+@keyframes skills
+{
+    0%
+    {
+        transform: translateX(200px);
+        opacity: 10%;
+    }
+
+    25%
+    {
+        transform: translateX(500px);
+        opacity: 100%;
+    }
+
+    50%
+    {
+        transform: translateX(800px);
+        opacity: 10%;
+    }
+
+    75%
+    {
+        transform: translate(1100px);
+        opacity: 100%;
+    }
+
+    100%
+    {
+        transform: translateX(1400px);
+        opacity: 10%;
+    }
+}
+
+#skillsTxt
+{
+    color: var(--yellow);
+    font-size: 6em;
+    font-family: 'Bebas Neue', cursive;
+    margin-left: 30%;
+    margin-top: -4.3%;
+}
+/*END*/
+
+.btn
+{
+    height: 3em;
+    width: 7em;
+    color: var(--violet);
+    font-size: .6em;
+    font-weight: bold;
+    background-color: var(--yellow);
+    border-radius: 30px;
+    border: solid 2px var(--yellow);
+    margin-left: 40%;
+}
+
+.btn:hover
+{
+    background-color: var(--violet);
+    color: var(--yellow);
+    border: solid 2px var(--yellow);
+}
+
+
 #logo
 {
     height: 20em;
@@ -84,5 +193,12 @@ h1:nth-child(4){
 
 .acceuil
 {
+    background: url(../img/banner/banner1.svg) center center no-repeat;
+    background-size: cover;
+    height: 4500px;
+}
 
+#cardAcceuil
+{
+    background-color: var(--pink);
 }
