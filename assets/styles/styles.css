@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Playfair+Display&family=Poppins:wght@200&display=swap');
+
+:root
+{
+    --violet : #686bae;
+    --yellow : #f1eda3;
+    --pink : #e5d2e0;
+    --blue : #05a9c7;
+}
+
+body
+{
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+nav
+{
+    height: 7em;
+    background-color: var(--violet);
+    opacity: 80%;
+}
+
+.nav-link
+{
+    display: block;
+    color: var(--yellow);
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+/*MainTitle + animation*/
+h1
+{
+    position: relative;
+    color: var(--yellow);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 10em !important;
+    line-height: .7em !important;
+    top: 8%;
+    left: -45%;
+    animation: flash 1.2s linear infinite;
+}
+@keyframes flash 
+{
+    0% {
+        color: var(--pink);
+        text-shadow: 0 0 7px var(--pink);
+    }
+    90% {
+        color: var(--yellow);
+        text-transform: none;
+    }
+    100% {
+        color: var(--pink);
+        text-shadow: 0 0 7px var(--pink);
+    }
+}
+
+h1:nth-child(1){
+    animation-delay: 0.1s;
+}
+h1:nth-child(2){
+    animation-delay: 0.3s;
+}
+h1:nth-child(3){
+    animation-delay: 0.5s;
+}
+h1:nth-child(4){
+    animation-delay: 0.7s;
+}
+/*END*/
+
+#logo
+{
+    height: 20em;
+    width: 20em;
+}
+
+.acceuil
+{
+
+}
