@@ -137,6 +137,13 @@ h1:nth-child(4){
 #titleProjets
 {
     font-size: 8em;
+    color: var(--blue);
+    margin-top: 5%;
+}
+
+#titlePictos
+{
+    font-size: 8em;
     color: var(--violet);
     margin-top: 5%;
 }
@@ -207,11 +214,31 @@ h1:nth-child(4){
 }
 /*Btn END*/
 
+/*Logos, pictos*/
 #logo
 {
     height: 20em;
     width: 20em;
 }
+
+#picto1
+{
+    height: 15em;
+    width: 20em;
+}
+
+#picto2
+{
+    height: 15em;
+    width: 20em;
+}
+
+#picto3
+{
+    height: 15em;
+    width: 20em;
+}
+/*Logos, pictos END*/
 
 /*Section*/
 .acceuil
@@ -228,9 +255,68 @@ h1:nth-child(4){
     height: 5500px;
     margin-top: -100%;
 }
+
+.pictos
+{
+    background: url(../img/banner/banner3.svg) center center no-repeat;
+    background-size: cover;
+    height: 6500px;
+    margin-top: -130%;
+}
 /*Section END*/
 
+/*Cards*/
 #cardAcceuil
 {
     background-color: var(--pink);
 }
+
+.card
+{
+    background-color: var(--blue);
+}
+/*Cards END*/
+
+.list-group-item
+{
+    background-color: var(--violet);
+}
+
+/*Stage*/
+#agoria
+{
+    background-color: var(--violet);
+    font-size: 1.2em;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    color: var(--yellow);
+    border-radius: 12px;
+    margin-top: 350px;
+}
+
+table
+{
+    margin-top: 50px !important;
+    background-color: var(--violet) !important;
+    border-radius: 12px !important;
+}
+
+thead, td
+{
+    color: var(--yellow);
+    font-family: 'Poppins', sans-serif;
+}
+
+th
+{
+    text-align: center;
+    color: var(--blue);
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+td a 
+{
+    color: var(--yellow);
+}
+/*Stage END*/
