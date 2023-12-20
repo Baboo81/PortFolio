@@ -59,6 +59,21 @@ nav
     font-family: 'Ranchers', sans-serif;
 }
 
+.colorYellow
+{
+    color: var(--yellow);
+}
+
+.fontSizeTitles
+{
+    font-size: 2em;
+}
+
+.fontSizeMedium
+{
+    font-size: 1.5em;
+}
+
 /*Titles*/
 #titleSkills
 {
@@ -459,3 +474,24 @@ td a
     margin-top: 10%;
   }
   /*CarouselCertifications END*/
+
+  /*Footer*/
+
+ #mapid
+ {
+    height: 300px;
+    border-radius: 12px;
+ } 
+
+.netWorks
+{
+    height: 70px;
+    width: 70px;
+}
+
+.netWorks:hover
+{
+    transform: scale(1.5);
+    transition: transform 330ms ease-in;
+}
+  /*Footer END*/
