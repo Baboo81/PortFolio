@@ -85,6 +85,12 @@ nav
     font-size: 1.5em;
 }
 
+.sizeIcones
+{
+    height: 2em;
+    width: 2em;
+}
+
 /*Titles*/
 .mainTitle
 {
