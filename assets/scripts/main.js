@@ -11,10 +11,10 @@ ball.style.position = "absolute";
 
 function ballAnimate1 () {
 
-    if (leftPos == 1700) {
+    if (leftPos == 100) {
         dir = 1
     } else if 
-        (leftPos == 1000) {
+        (leftPos == -100) {
         dir = -1
     }
     
@@ -22,7 +22,7 @@ function ballAnimate1 () {
     current_rotation += 1;
     
 
-    ball.style.left = `${leftPos}px`;
+    ball.style.right = `${leftPos}px`;
     ball.style.transform = 'rotate('  + current_rotation + 'deg)';
 
     requestAnimationFrame(ballAnimate1);
