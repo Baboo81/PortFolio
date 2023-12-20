@@ -23,6 +23,7 @@ nav
     height: 7em;
     background-color: var(--violet);
     opacity: 80%;
+    z-index: 20;
 }
 
 .navbar-brand
@@ -297,7 +298,7 @@ h1:nth-child(4){
 {
     background: url(../img/banner/banner4.svg) center center no-repeat;
     background-size: cover;
-    height: 5500px;
+    height: 2500px;
     margin-top: -122%;
 }
 /*Section END*/
@@ -476,6 +477,11 @@ td a
   /*CarouselCertifications END*/
 
   /*Footer*/
+footer
+{
+    height: 650px;
+    margin-top: -20%;
+}
 
  #mapid
  {
