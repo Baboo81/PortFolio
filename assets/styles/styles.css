@@ -14,6 +14,7 @@ body
 {
     box-sizing: border-box;
     overflow-x: hidden;
+    background-color: var(--violet);
 }
 
 /*Nav*/
@@ -281,8 +282,8 @@ h1:nth-child(4){
 {
     background: url(../img/banner/banner4.svg) center center no-repeat;
     background-size: cover;
-    height: 6500px;
-    margin-top: -130%;
+    height: 5500px;
+    margin-top: -122%;
 }
 /*Section END*/
 
@@ -356,7 +357,7 @@ td a
 }
 /*Stage END*/
 
-/*CarouselProduct*/
+/*CarouselCertifications*/
 .center
 {
     display:flex;
@@ -453,38 +454,8 @@ td a
     
   }
 
-  #carouselProduct
+  #carousel
   {
     margin-top: 10%;
   }
-
- .bloc1BtnVideo
- {
-    margin-top: 0%;
- } 
-
- .bloc2BtnVideo
- {
-    margin-top: 0%;
- } 
-
- .bloc3BtnVideo
- {
-    margin-top: 0%;
- } 
-
- #blocCarouselBtn1
- {
-    margin-top: 5%;
- }
-
- #blocCarouselBtn2
- {
-    margin-top: 5%;
- }
-
- #blocCarouselBtn3
- {
-    margin-top: 7%;
- }
-  /*CarouselProduct END*/
+  /*CarouselCertifications END*/
