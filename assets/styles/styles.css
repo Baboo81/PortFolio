@@ -58,6 +58,36 @@ nav
     font-family: 'Ranchers', sans-serif;
 }
 
+/*Titles*/
+#titleSkills
+{
+    font-size: 8em;
+    color: var(--yellow);
+    margin-top: 5%;
+}
+
+#titleProjets
+{
+    font-size: 8em;
+    color: var(--blue);
+    margin-top: 5%;
+}
+
+#titlePictos
+{
+    font-size: 8em;
+    color: var(--violet);
+    margin-top: 5%;
+}
+
+#titleCertifications
+{
+    font-size: 8em;
+    color: var(--pink);
+    margin-top: 5%;
+}
+/*Titles END*/
+
 /*MainTitle + animation*/
 h1
 {
@@ -125,29 +155,6 @@ h1:nth-child(4){
     margin-left: -20%;  
     animation: skills 8.5s linear infinite;
 }
-
-/*Titles*/
-#titleSkills
-{
-    font-size: 8em;
-    color: var(--yellow);
-    margin-top: 5%;
-}
-
-#titleProjets
-{
-    font-size: 8em;
-    color: var(--blue);
-    margin-top: 5%;
-}
-
-#titlePictos
-{
-    font-size: 8em;
-    color: var(--violet);
-    margin-top: 5%;
-}
-/*Titles END*/
 
 @keyframes skills
 {
@@ -238,6 +245,12 @@ h1:nth-child(4){
     height: 15em;
     width: 20em;
 }
+
+#pictoList
+{
+    height: 5em;
+    width: 5em;
+}
 /*Logos, pictos END*/
 
 /*Section*/
@@ -263,6 +276,14 @@ h1:nth-child(4){
     height: 6500px;
     margin-top: -130%;
 }
+
+.certifications
+{
+    background: url(../img/banner/banner4.svg) center center no-repeat;
+    background-size: cover;
+    height: 6500px;
+    margin-top: -130%;
+}
 /*Section END*/
 
 /*Cards*/
@@ -271,9 +292,23 @@ h1:nth-child(4){
     background-color: var(--pink);
 }
 
+#cardAcceuil:hover
+{
+    transform: scale(1.02);
+    transition: transform 330ms ease-in;
+    box-shadow: 8px 8px 12px #aaa;
+}
+
 .card
 {
     background-color: var(--blue);
+}
+
+.card:hover
+{
+    transform: scale(1.02);
+    transition: transform 330ms ease-in;
+    box-shadow: 8px 8px 12px #aaa;
 }
 /*Cards END*/
 
@@ -320,3 +355,136 @@ td a
     color: var(--yellow);
 }
 /*Stage END*/
+
+/*CarouselProduct*/
+.center
+{
+    display:flex;
+    justify-content: center;
+    position: relative;
+    top: 25vh;
+}
+
+.carousel-container 
+{
+    position: relative;
+    overflow: hidden;
+    width: 90em;
+    height: 50em;
+    margin-top: -25%;
+    margin-bottom: 35%;
+}
+  
+.carousel-slide 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: slideFadeIn 1s ease-in-out;
+    
+}
+  
+.carousel-slide img 
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+  
+.carousel-caption 
+{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    height: 100%;
+    width: 70%;
+    text-align: justify;
+    font-size: 1.3rem;
+}
+  
+  @keyframes slideFadeIn {
+    from {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    color: black;
+    text-decoration: none;
+    background-color: rgb(0,0,0,0.5);
+    padding: 1rem;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .carousel-control-prev:hover,
+  .carousel-control-next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .carousel-control-prev {
+    left: 0; 
+  }
+  
+  .carousel-control-next {
+    right: 0;
+  }
+  
+  .carousel-slide:first-of-type ~ .carousel-control-prev,
+  .carousel-slide:last-of-type ~ .carousel-control-next {
+    
+  }
+
+  #carouselProduct
+  {
+    margin-top: 10%;
+  }
+
+ .bloc1BtnVideo
+ {
+    margin-top: 0%;
+ } 
+
+ .bloc2BtnVideo
+ {
+    margin-top: 0%;
+ } 
+
+ .bloc3BtnVideo
+ {
+    margin-top: 0%;
+ } 
+
+ #blocCarouselBtn1
+ {
+    margin-top: 5%;
+ }
+
+ #blocCarouselBtn2
+ {
+    margin-top: 5%;
+ }
+
+ #blocCarouselBtn3
+ {
+    margin-top: 7%;
+ }
+  /*CarouselProduct END*/
