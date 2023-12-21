@@ -20,6 +20,7 @@ body
 p
 {
     color: var(--yellow);
+    font-size: 1.5em;
 }
 
 /*Nav*/
@@ -316,7 +317,7 @@ h1:nth-child(4){
 {
     background: url(../img/banner/banner3.svg) center center no-repeat;
     background-size: cover;
-    height: 6500px;
+    height: 6900px;
     margin-top: -130%;
 }
 
@@ -325,7 +326,7 @@ h1:nth-child(4){
     background: url(../img/banner/banner4.svg) center center no-repeat;
     background-size: cover;
     height: 2500px;
-    margin-top: -122%;
+    margin-top: -130%;
 }
 /*Section END*/
 
@@ -373,9 +374,10 @@ h1:nth-child(4){
 
 table
 {
-    margin-top: 50px !important;
-    background-color: var(--violet) !important;
-    border-radius: 12px !important;
+    margin-top: 50px;
+    background-color: var(--violet);
+    border-radius: 12px;
+    height: 30em;
 }
 
 thead, td
