@@ -325,8 +325,8 @@ h1:nth-child(4){
 {
     background: url(../img/banner/banner4.svg) center center no-repeat;
     background-size: cover;
-    height: 2500px;
-    margin-top: -130%;
+    height: 3500px;
+    margin-top: -133%;
 }
 /*Section END*/
 
@@ -401,72 +401,17 @@ td a
 /*Stage END*/
 
 /*CarouselCertifications*/
-.center
+.carousel-control
 {
-    display:flex;
-    justify-content: center;
-    position: relative;
-    top: 25vh;
+    height: 1300px;
 }
 
-.carousel-container 
+#carouselExampleFade
 {
-    position: relative;
-    overflow: hidden;
-    width: 90em;
-    height: 50em;
-    margin-top: -25%;
-    margin-bottom: 35%;
+    margin-top: 10%;
 }
-  
-.carousel-slide 
-{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    animation: slideFadeIn 1s ease-in-out;
-    
-}
-  
-.carousel-slide img 
-{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-  
-.carousel-caption 
-{
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #fff;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content:center;
-    height: 100%;
-    width: 70%;
-    text-align: justify;
-    font-size: 1.3rem;
-}
-  
-  @keyframes slideFadeIn {
-    from {
-      opacity: 0;
-      transform: translateX(-100%);
-    }
-    to {
-      opacity: 1;
-      transform: translateX(0%);
-    }
-  }
-  
-  .carousel-control-prev,
+
+.carousel-control-prev,
   .carousel-control-next {
     position: absolute;
     top: 50%;
@@ -491,23 +436,13 @@ td a
   .carousel-control-next {
     right: 0;
   }
-  
-  .carousel-slide:first-of-type ~ .carousel-control-prev,
-  .carousel-slide:last-of-type ~ .carousel-control-next {
-    
-  }
-
-  #carousel
-  {
-    margin-top: 10%;
-  }
-  /*CarouselCertifications END*/
+/*CarouselCertifications END*/
 
   /*Footer*/
 footer
 {
     height: 650px;
-    margin-top: -20%;
+    margin-top: -13%;
 }
 
  #mapid
