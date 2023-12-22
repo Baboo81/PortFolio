@@ -64,8 +64,8 @@ nav
 
 .wrap
 {
-    width: 310px;
-    height: 310px;
+    width: 298px;
+    height: 298px;
     position: relative;
 }
 
@@ -535,7 +535,72 @@ footer
 /*Style pour mobile,largeur d'écran inférieur à 480px*/
 @media only screen and (max-width : 480px)
 {
+    /*MainTitle*/
+    .mainTitle
+    {
+        font-size: .7em;
+        margin-top: 20%;
+        margin-left: 40%;
+    }
 
+    /*Clock*/
+    .clock
+    {
+        margin-left: 12%;
+    }
+
+    /*Section*/
+    .acceuil
+    {
+        height: 6400px;
+    }
+
+    .projets
+    {
+        margin-top: -850%;
+        height: 11000px;
+    }
+
+    .pictos
+    {
+        height: 10600px;
+        margin-top: -1620%;
+    }
+
+    .certifications
+    {
+        height: 1000px;
+        margin-top: -1630%;
+    }
+
+    /*Titles*/
+    #titleSkills, #titleProjets, #titlePictos, #titleCertifications
+    {
+        font-size: 4em;
+    }
+
+    /*Bloc Agoria*/
+    .scroll
+    {
+        width: 365px;
+        height: 500px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        border: 1px solid var(--taupe);
+        margin: auto;
+    }
+
+    /*Carousel bg*/
+    .carousel-control
+    {
+        height: 460px;
+    }
+
+    /*AnimationLogo*/
+    .animationLogo
+    {
+        display: none;
+    }
 }
 
 /*Style pour les tablettes*/
