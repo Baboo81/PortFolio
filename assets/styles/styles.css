@@ -53,6 +53,80 @@ nav
 }
 /*Nav END*/
 
+/*Animation horloge*/
+.clock
+{
+    /*background: url(../img/svg/Logo.svg) no-repeat;*/
+    background: var(--violet);
+    border: solid 5px white;
+    border-radius: 50%;
+    margin-top: 20%;
+}
+
+.wrap
+{
+    width: 350px;
+    height: 350px;
+    position: relative;
+}
+
+.minute, .heure
+{
+    position: absolute;
+    height: 100px;
+    width: 6px;
+    margin: auto;
+    background: black;
+    top: -27%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transform-origin: bottom center;
+    transform: rotate(0deg);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+}
+
+.minute
+{
+    position: absolute;
+    height: 130px;
+    width: 4px;
+    top: -38%;
+    left: 0;
+    right: 0;
+    transform: rotate(90deg);
+}
+
+.seconde
+{
+    position: absolute;
+    height: 90px;
+    width: 2px;
+    margin: auto;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: -26%;
+    background: #ff4b3e;
+    transform-origin: bottom center;
+    transform: rotate(180deg);
+}
+
+.point
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 12px;
+    height: 12px;
+    background: var(--yellow);
+    border: 2px solid #1b1b1b;
+    border-radius: 50%;
+}
+/*END*/
+
 .fontCaveat
 {
     font-family: 'Caveat', cursive;
@@ -409,6 +483,8 @@ td a
 #carouselExampleFade
 {
     margin-top: 10%;
+    border: solid 15px var(--pink);
+    box-shadow: 8px 8px 12px #aaa;
 }
 
 .carousel-control-prev,
@@ -441,7 +517,7 @@ td a
   /*Footer*/
 footer
 {
-    height: 650px;
+    
     margin-top: -13%;
 }
 
