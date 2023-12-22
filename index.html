@@ -19,7 +19,7 @@
         <title>PortFolio Christel Rodriguez Perez Web-developper</title>
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg fixed-top">
+        <nav class="navbar navbar-expand-lg fixed-top boxShadow">
             <div class="container-fluid">
                 <a class="navbar-brand mx-5" href="#">PortFolio</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -257,7 +257,7 @@
                 <h2 id="titlePictos" class="text-center fontRanchers py-5">Pictos</h2>
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="list-group list-group-flush rounded-4 my-3">
+                        <div class="list-group list-group-flush rounded-4 my-3 boxShadow">
                             <article id="list" class="list-group-item p-4">
                                 <div class="row">
                                     <div class="col-12 col-md-4 d-md-block">
@@ -300,7 +300,7 @@
                     <div class="row">
                         <h2 id="titlePictos" class="text-center fontRanchers py-5">Stage</h2>
                         <div class="col-md-12">
-                            <article id="agoria">
+                            <article class="boxShadow" id="agoria">
                                 <img src="./assets/img/svg/agoria.svg" alt="Logo Agoria">
                                 <p id="agoriaTxt" class="p-4">Agoria, la fédération de l’industrie technologique, regroupe 2079 entreprises technologiques et tous ceux qui sont inspirés par la technologie. Comptant plus de 321.000 travailleurs, le secteur technologique est le plus grand secteur de Belgique et Agoria la plus grande fédération au sein de la FEB. Quelque 70 pour cent des membres d'Agoria sont des PME. 
                                    Agoria compte plus de 200 collaborateurs. Ils travaillent chez les membres, à domicile ou au bureau à Bruxelles, Anvers, Liège, Gand et Charleroi. Dans les trois premières villes, Agoria dispose de son propre centre d'affaires BluePoint et d’un Tech.Lounge.
@@ -308,7 +308,7 @@
                                    À travers « Be The Change », Agoria se concentre sur l'avenir du marché du travail, dans le cadre de « Factory of the Future » sur les atouts de notre industrie manufacturière et à travers « DigiCoach », sur la poursuite de la digitalisation des individus et organisations. Agoria dispose à la fois d'un centre d'études et d’un centre d’innovation et est active à tous les niveaux politiques. Bart Steukers est le CEO d’Agoria.
                                 </p>
                             </article>
-                            <table class="table-dark">
+                            <table class="table-dark boxShadow">
                                 <thead>
                                     <tr class="fontRanchers">
                                         <th>Liens</th>
@@ -439,31 +439,38 @@
     <footer class="text-center text-lg-start colorYellow py-5">
         <section class="">
           <div class="container text-center text-md-start mt-5">
-            <div class="row mt-3">
-              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                <p class="text-uppercase fontRanchers fontSizeTitles mb-4 text-center">
-                  <i class="fas fa-gem me-3"></i>Adresse
-                </p>
-                <p class="text-center">
-                    Rue Champ Rodange 14, Waterloo
-                </p>
-                <div id="mapid" class="container-fluid"></div>
-              </div>
-              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                    <p class="text-uppercase fontRanchers fontSizeTitles mb-4 text-center">
-                        Réseaux Sociaux
-                    </p>
-                    <div class="d-flex justify-content-center">
-                        <a href="https://github.com/Baboo81"><img class="netWorks px-2" src="../assets/img/svg/footer/PictoGit.svg" alt="Logo de GitHub" /></a>
-                        <a href="https://www.linkedin.com/in/chris-rodriguez-perez-609716100/"><img class="netWorks px-2" src="../assets/img/svg/footer/PictoLinkedIn.svg" alt="Logo de LinkedIn" /></a>
-                        <a href="mailto:chrisrodriguez@hotmail.be"><img class="netWorks px-2" src="../assets/img/svg/footer/PictoMail.svg" alt="Logo mail" /></a>
+                <div class="row mt-3">
+                   <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <p class="text-uppercase fontRanchers fontSizeTitles mb-4 text-center">
+                            <i class="fas fa-gem me-3"></i>Adresse
+                        </p>
+                        <p class="text-center">
+                            Rue Champ Rodange 14, Waterloo
+                        </p>
+                        <div id="mapid" class="container-fluid"></div>
+                    </div>
+                    <div class="col-md-4 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <p class="text-uppercase fontRanchers fontSizeTitles mb-4 text-center">
+                            Réseaux Sociaux
+                        </p>
+                        <div class="justify-content-center mx-5">
+                            <a href="https://github.com/Baboo81"><img class="netWorks px-2" src="../assets/img/svg/footer/PictoGit.svg" alt="Logo de GitHub" /></a>
+                            <a href="https://www.linkedin.com/in/chris-rodriguez-perez-609716100/"><img class="netWorks px-2" src="../assets/img/svg/footer/PictoLinkedIn.svg" alt="Logo de LinkedIn" /></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <p class="text-uppercase fontRanchers fontSizeTitles mb-4 text-center">
+                            Contact
+                        </p>
+                        <div class="justify-content-center mx-5 mt-3">
+                            <a href="mailto:chrisrodriguez@hotmail.be"><img class="netWorks px-2" src="../assets/img/svg/footer/PictoMail.svg" alt="Logo mail" /></a>
+                        </div>
                     </div>
                 </div>
             </div>
-          </div>
         </section>
             <div class="text-center fontSizeMedium fontRanchers py-3">
-                <p>&copy; Christel Rodriguez Perez - 2023</p>
+                <p>&copy; Christel Rodriguez Perez - 2024</p>
             </div>
       </footer>
 </html>
