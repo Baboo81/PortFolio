@@ -56,17 +56,16 @@ nav
 /*Animation horloge*/
 .clock
 {
-    /*background: url(../img/svg/Logo.svg) no-repeat;*/
-    background: var(--violet);
-    border: solid 5px white;
-    border-radius: 50%;
+    height: 20em;
+    width: 20em;
+    background: url(../img/svg/Logo.svg) no-repeat;
     margin-top: 20%;
 }
 
 .wrap
 {
-    width: 350px;
-    height: 350px;
+    width: 310px;
+    height: 310px;
     position: relative;
 }
 
@@ -110,20 +109,6 @@ nav
     background: #ff4b3e;
     transform-origin: bottom center;
     transform: rotate(180deg);
-}
-
-.point
-{
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 12px;
-    height: 12px;
-    background: var(--yellow);
-    border: 2px solid #1b1b1b;
-    border-radius: 50%;
 }
 /*END*/
 
