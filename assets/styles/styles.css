@@ -14,7 +14,7 @@ body
 {
     box-sizing: border-box;
     overflow-x: hidden;
-    background-color: var(--violet);
+    background: var(--violet);
 }
 
 p
