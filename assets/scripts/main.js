@@ -58,3 +58,6 @@ function ballAnimate1 () {
 };
 
 requestAnimationFrame(ballAnimate1);
+
+//Script pour adapter la taille des sections en fonction de la taille de la fenêtre du navigateur:
+  

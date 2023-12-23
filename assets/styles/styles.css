@@ -604,13 +604,65 @@ footer
 }
 
 /*Style pour les tablettes*/
-@media only screen and (min-width : 481px) and (max-width : 768px)
+@media only screen and (min-width : 481px) and (max-width : 810px)
 {
+    /*MainTitle*/
+    .mainTitle
+    {
+        font-size: 1.2em;
+        margin-top: 10%;
+        margin-left: 20%;
+    }
 
+     /*Clock*/
+     .clock
+     {
+         margin-left: 25%;
+     }
+
+     /*Section*/
+    .acceuil
+    {
+        height: 450em;
+    }
+
+    .projets
+    {
+        height: 300em;
+        margin-top: -470%;
+    }
+
+    .pictos
+    {
+        height: 520em;
+        margin-top: -335%;
+    }
+
+    .certifications
+    {
+        height: 120em;
+        margin-top: -450%;
+    }
+
+    /*Cards*/
+    .card p 
+    {
+        font-size: .9em;
+    }
+
+    .carousel-control
+    {
+        height: 46em;
+    }
+ 
+    .list-group p
+    {
+        font-size: .9em;
+    }
 }
 
 /*Style pour les desktop*/
-@media only screen and (min-width : 769px)
+@media only screen and (min-width : 811px)
 {
 
 }
