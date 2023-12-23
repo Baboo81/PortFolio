@@ -366,14 +366,14 @@ h1:nth-child(4){
 {
     background: url(../img/banner/banner1.svg) center center no-repeat;
     background-size: cover;
-    height: 5100px;
+    height: 300em;
 }
 
 .projets
 {
     background: url(../img/banner/banner2.svg) center center no-repeat;
     background-size: cover;
-    height: 5500px;
+    height: 320em;
     margin-top: -100%;
 }
 
@@ -381,7 +381,7 @@ h1:nth-child(4){
 {
     background: url(../img/banner/banner3.svg) center center no-repeat;
     background-size: cover;
-    height: 6900px;
+    height: 440em;
     margin-top: -130%;
 }
 
@@ -389,7 +389,7 @@ h1:nth-child(4){
 {
     background: url(../img/banner/banner4.svg) center center no-repeat;
     background-size: cover;
-    height: 3500px;
+    height: 180em;
     margin-top: -133%;
 }
 /*Section END*/
