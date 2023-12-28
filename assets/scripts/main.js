@@ -17,7 +17,7 @@ function clock () {
     const hours = ((date.getHours() + 11) % 12 + 1);
     const minutes = date.getMinutes();
     const secondes = date.getSeconds();
-    //Corréler les valeurs avec les degrés de l'hotloge:
+    //Corréler les valeurs avec les degrés de l'horloge:
     const hour = hours * 30;
     const minute = minutes * 6;
     const seconde = secondes * 6;
@@ -60,4 +60,3 @@ function ballAnimate1 () {
 requestAnimationFrame(ballAnimate1);
 
 //Script pour adapter la taille des sections en fonction de la taille de la fenêtre du navigateur:
-  
