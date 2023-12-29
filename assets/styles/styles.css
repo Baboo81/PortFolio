@@ -556,7 +556,7 @@ footer
     {
         font-size: .7em;
         margin-top: 20%;
-        margin-left: 40%;
+        margin-left: 48%;
     }
 
     /*Clock*/
@@ -565,10 +565,23 @@ footer
         margin-left: 12%;
     }
 
+    /*Card acceuil*/
+    #cardAcceuil
+    {
+        height: 55em;
+        width: 25em;
+        margin-left: 9%;
+    }
+
+    .img-fluid
+    {
+        padding: auto;
+    }
+
     /*Section*/
     .acceuil
     {
-        height: 6400px;
+        height: 6650px;
     }
 
     .projets
@@ -637,39 +650,39 @@ footer
     /*MainTitle*/
     .mainTitle
     {
-        font-size: 1.2em;
+        font-size: .7em;
         margin-top: 10%;
-        margin-left: 20%;
+        margin-left: 50%;
     }
 
      /*Clock*/
      .clock
      {
-         margin-left: 25%;
+         margin-left: 20%;
      }
 
      /*Section*/
     .acceuil
     {
-        height: 450em;
+        height: 380em;
     }
 
     .projets
     {
-        height: 300em;
-        margin-top: -470%;
+        height: 720em;
+        margin-top: -450%;
     }
 
     .pictos
     {
-        height: 520em;
-        margin-top: -335%;
+        height: 700em;
+        margin-top: -930%;
     }
 
     .certifications
     {
         height: 120em;
-        margin-top: -450%;
+        margin-top: -680%;
     }
 
     /*Cards*/
@@ -702,11 +715,24 @@ footer
         color: var(--violet);
     }
     /*Nav END*/
+
 }
 
 /*Style pour les desktop*/
 @media only screen and (min-width : 991px) and (max-width : 1288px)
 
 {
+    .nav-link
+    {
+        margin-left: 0;
+        margin-right: 0;
+    }
 
+     /*MainTitle*/
+     .mainTitle
+     {
+         font-size: 1.2em;
+         margin-top: 10%;
+         margin-left: 30%;
+     }
 }
