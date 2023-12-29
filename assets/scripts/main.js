@@ -60,3 +60,26 @@ function ballAnimate1 () {
 requestAnimationFrame(ballAnimate1);
 
 //Script pour adapter la taille des sections en fonction de la taille de la fenêtre du navigateur:
+const sections = document.querySelectorAll('section');
+
+for (sections; sections < 4; sections++ ) {
+    let sizeWindow = window.matchMedia("(width : 2003px)");
+
+    switch (sizeWindow) {
+        case window.matchMedia("(width : 1900px)"): 
+         style.marginTop = "0%";
+            break;
+        case window.matchMedia("(width : 1400px)"):
+        style.marginTop = "-150%";
+            break;
+        case window.matchMedia("(width : 1000px)"):
+        style.marginTop = "-200%";
+            break;
+        case window.matchMedia("(width : 600px)"):
+        style.marginTop = "-250%";
+            break;
+        case window.matchMedia("(width : 500px)"):
+        style.marginTop = "-300%";
+            break;
+    }
+}

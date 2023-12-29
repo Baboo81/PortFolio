@@ -539,6 +539,18 @@ footer
 /*Style pour mobile,largeur d'écran inférieur à 480px*/
 @media only screen and (max-width : 480px)
 {
+    /*Nav*/
+    #navbarSupportedContent
+    {
+        background-color: var(--blue);
+    }
+
+    .nav-link:hover
+    {
+        color: var(--violet);
+    }
+    /*Nav END*/
+
     /*MainTitle*/
     .mainTitle
     {
@@ -610,6 +622,18 @@ footer
 /*Style pour les tablettes*/
 @media only screen and (min-width : 481px) and (max-width : 810px)
 {
+     /*Nav*/
+     #navbarSupportedContent
+     {
+         background-color: var(--blue);
+     }
+ 
+     .nav-link:hover
+     {
+         color: var(--violet);
+     }
+     /*Nav END*/
+
     /*MainTitle*/
     .mainTitle
     {
@@ -665,8 +689,24 @@ footer
     }
 }
 
+@media only screen and (min-width : 481px) and (max-width : 991px)
+{
+    /*Nav*/
+    #navbarSupportedContent
+    {
+        background-color: var(--blue);
+    }
+
+    .nav-link:hover
+    {
+        color: var(--violet);
+    }
+    /*Nav END*/
+}
+
 /*Style pour les desktop*/
-@media only screen and (min-width : 811px)
+@media only screen and (min-width : 991px) and (max-width : 1288px)
+
 {
 
 }
