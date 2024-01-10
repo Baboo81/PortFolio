@@ -393,7 +393,7 @@ h1:nth-child(4){
     position: relative;
     background: url(../img/banner/banner4.svg) center center no-repeat;
     background-size: cover;
-    height: 180em;
+    height: 260em;
     margin-top: -133%;
 }
 /*Section END*/
@@ -508,11 +508,23 @@ td a
   }
 /*CarouselCertifications END*/
 
+/*Comments*/
+#commentsBloc
+{
+    margin-top: 30%;
+}
+
+.bgComments
+{
+    background-color: var(--pink);
+}
+/*Comments END*/
+
   /*Footer*/
 footer
 {
     
-    margin-top: -25%;
+    margin-top: 0%;
 }
 
  #mapid
