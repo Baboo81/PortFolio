@@ -450,6 +450,23 @@
                         </form>
                     </div>
                 </div>
+                <?php
+                    $server = "localhost";
+                    $login = "root";
+                    $passWord = "root";
+
+                    try {
+                        $connexion = new PDO("mysql:host=$server;dbname=CommentBox;charset=utf8", $login, $passWord);
+                        $connexion->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+                        
+                        
+                    }
+
+                    catch(PDOException $error) {
+                        echo "Echec de la connexion " . $error->getMessage();
+                    }
+                ?>
             </section>
         </main>
     </body>
