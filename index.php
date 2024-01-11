@@ -459,8 +459,27 @@
                         $connexion = new PDO("mysql:host=$server;dbname=CommentBox;charset=utf8", $login, $passWord);
                         $connexion->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
+                        //Verification de la présence des entrées de l'utilisateur:
+                        if($_POST['submit_comments']) {
+                            if(isset($_POST['pseudo'], $_POST['submit_comments']) AND !empty($_POST['pseudo']) AND !empty($_POST['comments']
+                            )) {
+                                $pseudo = htmlspecialchars($_POST['pseudo']);
+                                $commentaire = htmlspecialchars($_POST['comments']);
+                                if(strlen($pseudo) < 25) {
+                                    $request = $connexion->prepare('
+                                        INSERT INTO CommentBox (pseudo, commentaire) VALUES (?, ?)');
+                                    $request->execute(array($pseudo, $commentaire));
+                                } else {
+                                    $comment_error = "Le pseudo doit faire moins de 25 caractères !";
+                                }
+                            } else {
+                                $comment_error = "Tous les champs doivent être complétés !";
+                                }
+                            }
                         
-                        
+                        if(isset($comment_error)) {
+                            echo $comment_error;
+                        }
                     }
 
                     catch(PDOException $error) {
