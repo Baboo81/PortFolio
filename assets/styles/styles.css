@@ -50,6 +50,8 @@ nav
 .nav-link:hover
 {
     color: var(--blue);
+    transform: scale(1.2);
+    transition: transform 330ms ease-in;
 }
 /*Nav END*/
 
