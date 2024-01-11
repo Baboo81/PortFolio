@@ -184,6 +184,13 @@ nav
     color: var(--pink);
     margin-top: 5%;
 }
+
+#titleComments
+{
+    font-size: 4em;
+    color: var(--pink);
+    margin-top: 5%;
+}
 /*Titles END*/
 
 /*MainTitle + animation*/
@@ -509,6 +516,11 @@ td a
 /*CarouselCertifications END*/
 
 /*Comments*/
+#commentsBloc
+{
+    margin-top: 15%;
+}
+
 .bg-yellow
 {
     background-color: var(--yellow);

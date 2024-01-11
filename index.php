@@ -438,13 +438,13 @@
                 </div>
                 <div id="commentsBloc" class="container py-5">
                     <div class="row">
-                        <h4 id="titleCertifications" class="text-center fontRanchers py-5">Commentaires</h4>
                         <form action="POST" class="col-md-4">
+                        <h4 id="titleComments" class="text-center fontRanchers py-5">Commentaires ...</h4>
                             <div class="form-group">
                                 <input type="text" class="form-control bg-yellow border rounded-5" name="pseudo" placeholder="Votre pseudo" />
                                 <textarea class="form-control bg-yellow border rounded-5 my-4" name="comments" id="textArea" cols="30" rows="10" placeholder="Entrez votre commentaire"></textarea>
                             </div>
-                            <div class="p-5">
+                            <div class="p-2">
                                 <input type="submit" class="btn" value="Envoyer" name="submit_comments" id="commentBoxBtn" />
                             </div>
                         </form>
