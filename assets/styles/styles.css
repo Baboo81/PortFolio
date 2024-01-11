@@ -308,7 +308,7 @@ h1:nth-child(4){
     height: 3em;
     width: 7em;
     color: var(--violet);
-    font-size: .6em;
+    font-size: .7em;
     font-weight: bold;
     background-color: var(--yellow);
     border-radius: 30px;
@@ -509,21 +509,26 @@ td a
 /*CarouselCertifications END*/
 
 /*Comments*/
-#commentsBloc
+.bg-yellow
 {
-    margin-top: 30%;
+    background-color: var(--yellow);
 }
 
-.bgComments
+#commentBoxBtn
 {
-    background-color: var(--pink);
+    
+}
+
+textarea::placeholder
+{
+    text-align: center;
+    font-family: 'Ranchers', sans-serif;
 }
 /*Comments END*/
 
   /*Footer*/
 footer
 {
-    
     margin-top: 0%;
 }
 
