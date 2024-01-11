@@ -439,9 +439,9 @@
                 <div id="commentsBloc" class="container py-5">
                     <div class="row">
                         <h4 id="titleCertifications" class="text-center fontRanchers py-5">Commentaires</h4>
-                        <form action="POST">
+                        <form action="POST" class="col-md-4">
                             <div class="form-group">
-                                <input type="text" class="form-control border rounded-5" name="pseudo" placeholder="Votre pseudo" />
+                                <input type="text" class="form-control bg-yellow border rounded-5" name="pseudo" placeholder="Votre pseudo" />
                                 <textarea class="form-control bg-yellow border rounded-5 my-4" name="comments" id="textArea" cols="30" rows="10" placeholder="Entrez votre commentaire"></textarea>
                             </div>
                             <div class="p-5">
