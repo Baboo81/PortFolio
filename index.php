@@ -461,7 +461,7 @@
 
                         //Verification de la présence des entrées de l'utilisateur:
                         if($_POST['submit_comments']) {
-                            if(isset($_POST['pseudo'], $_POST['submit_comments']) AND !empty($_POST['pseudo']) AND !empty($_POST['comments']
+                            if(isset($_POST['pseudo'], $_POST['comments']) AND !empty($_POST['pseudo']) AND !empty($_POST['comments']
                             )) {
                                 $pseudo = htmlspecialchars($_POST['pseudo']);
                                 $commentaire = htmlspecialchars($_POST['comments']);
